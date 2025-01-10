@@ -1,0 +1,26 @@
+/* --------GLOBAL RESET-------- */
+:root {
+  --primary-color: #ff4500;
+  --background-color: #121212;
+  --text-color: #fff;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+img{
+  cursor: pointer;
+}
+
+.flex-div{
+  display: flex;
+  align-items: center;
+}
