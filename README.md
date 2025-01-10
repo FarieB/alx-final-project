@@ -14,3 +14,8 @@ Development Process Planning: Drafted a design inspired by YouTube’s interface
 - **Branching:** Features and fixes are developed on separate branches and merged into the main branch via pull requests.
 - **Commit Messages:** Each commit message is descriptive, summarizing the changes made.
 
+## Play container
+
+- Adding "controls autoplay" for the video.
+- Adding tags to the video.
+- Adding video description, views, and icons for like, dislike, share and saving the video.
