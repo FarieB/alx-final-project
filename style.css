@@ -213,3 +213,10 @@ nav{
   color: #007BFF;
 }
 
+/* Add responsiveness for mobile screens */
+@media (max-width: 768px) {
+  .categories-list {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
