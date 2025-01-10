@@ -25,3 +25,9 @@ Development Process Planning: Drafted a design inspired by YouTube’s interface
 -channel description
 -comments
 -search input text box
+
+## Previous Comments
+
+- Adding previous comments from streamers
+- Adding comments reaction features like- likes, dislike, reply and all replies.
+- Adding profiles for people who are commenting.
