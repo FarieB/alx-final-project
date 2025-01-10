@@ -31,3 +31,7 @@ Development Process Planning: Drafted a design inspired by YouTube’s interface
 - Adding previous comments from streamers
 - Adding comments reaction features like- likes, dislike, reply and all replies.
 - Adding profiles for people who are commenting.
+
+## Right-Sidebar
+
+- Video thumbnails from the main html file (index.html) to appear as an option list on the video-link.html page's right sidebar.
