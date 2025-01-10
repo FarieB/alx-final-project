@@ -444,3 +444,42 @@ nav{
   background-color: darkred;
   transition: background 0.3s ease;
 }
+
+.video-description{
+  padding-left: 55px;
+  margin: 15px 0;
+}
+
+.video-description p{
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #5a5a5a;
+}
+
+.video-description h4{
+  font-size: 14px;
+  color: #5a5a5a;
+  margin-top: 15px;
+}
+
+.add-comments{
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.add-comments img{
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.add-comments input{
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  padding-top: 10px;
+  background: transparent;
+}
+
