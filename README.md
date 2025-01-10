@@ -7,3 +7,10 @@ PROJECT ROOT | |-- index.html (Homepage for the application) |-- video-link.html
 Technologies Used HTML5: Structure and semantics. CSS3: Layout design using CSS Grid, Flexbox, and media queries. JavaScript (ES6): Adds dynamic interactions and event handling. GitHub Pages: Deployed project for public access.
 
 Development Process Planning: Drafted a design inspired by YouTube’s interface. Implementation: Built the page structure with semantic HTML. Styled the layout using CSS, ensuring responsiveness. Added interactive features with JavaScript. Testing and Debugging: Tested across multiple browsers and screen sizes to ensure compatibility. Deployment: Published on GitHub Pages for demonstration.
+
+## Version Control Workflow
+
+- **Commit Frequency:** Changes are committed frequently to ensure a clear history of progress.
+- **Branching:** Features and fixes are developed on separate branches and merged into the main branch via pull requests.
+- **Commit Messages:** Each commit message is descriptive, summarizing the changes made.
+
