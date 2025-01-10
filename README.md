@@ -65,3 +65,10 @@ Drafted a design inspired by YouTube’s interface. Implementation: Built the pa
 - Margin Adjustments:
 .play-video .play-video-info: The left margin is removed (margin-left: 0), and small margins are added on the right (margin-right: 15px) and top (margin-top: 15px). These changes help in maintaining a neat layout without unnecessary whitespace.
 - These changes collectively make the layout more user-friendly on smaller screens by rearranging elements to fit better, ensuring readability, and maintaining a clean visual structure.
+
+## Functionality- Javascript
+
+- small-sidebar: reduces the width or visibility of the sidebar, creating more space for the main content.
+- large-container: Expands the main content container to fill the space freed up by collapsing the sidebar.
+- Overall Functionality:
+This code provides an interactive sidebar toggle, allowing users to switch between a larger content view and a standard view by clicking the menu icon. This is a common feature in responsive web applications to optimize space and usability on different screen sizes.
