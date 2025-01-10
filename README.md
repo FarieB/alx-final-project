@@ -53,3 +53,15 @@ Drafted a design inspired by YouTube’s interface. Implementation: Built the pa
 ## Right-Sidebar-Extention
 
 - Added more video thumbnails from the index.html page
+
+## Mobile Responsiveness- Video-link.html
+
+- Media Query Definition:
+@media (max-width:900px): This targets devices or screen widths that are 900 pixels wide or smaller.
+- Flexbox Adjustments:
+.play-video and .right-sidebar: Both elements are set to take up 100% of the width (flex-basis: 100%;). This ensures that they stack vertically rather than side-by-side, which is more suitable for narrow screens.
+- Padding Adjustments:
+.video-description: The padding on the left is set to 0, aligning the content flush with the container for better use of limited screen space.
+- Margin Adjustments:
+.play-video .play-video-info: The left margin is removed (margin-left: 0), and small margins are added on the right (margin-right: 15px) and top (margin-top: 15px). These changes help in maintaining a neat layout without unnecessary whitespace.
+- These changes collectively make the layout more user-friendly on smaller screens by rearranging elements to fit better, ensuring readability, and maintaining a clean visual structure.
