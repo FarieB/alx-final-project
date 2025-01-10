@@ -527,3 +527,24 @@ nav{
 .previous-comments .comments-reaction a{
   color: #0000ff;
 }
+
+/* --------MOBILE RESPONSIVENESS------- */
+@media (max-width:900px){
+  .play-video{
+    flex-basis: 100%;
+  }
+  .right-sidebar{
+    flex-basis: 100%;
+  }
+  .play-container{
+    padding-left: 5%;
+  }
+  .video-description{
+    padding-left: 0;
+  }
+  .play-video .play-video-info{
+    margin-left: 0;
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+}
