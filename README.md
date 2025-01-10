@@ -19,3 +19,9 @@ Development Process Planning: Drafted a design inspired by YouTube’s interface
 - Adding "controls autoplay" for the video.
 - Adding tags to the video.
 - Adding video description, views, and icons for like, dislike, share and saving the video.
+
+## More Video Features
+-channel name
+-channel description
+-comments
+-search input text box
