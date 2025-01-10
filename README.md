@@ -87,5 +87,5 @@ This code provides an interactive sidebar toggle, allowing users to switch betwe
 
 ## Setup and Deployment 
 
-- Clone Repository: git clone https://github.com/FarieB/Alx-frontend-final-project.git
-- Open Locally: Open index.html in your browser to view the project. View Live: Visit the live demo at: Open Locally: Open index.html in your browser to view the project. View Live: Visit the live demo at: https://farieb.github.io/Alx-frontend-final-project/
+- Clone Repository: git clone https://github.com/FarieB/alx-final-project
+- Open Locally: Open index.html in your browser to view the project. View Live: Visit the live demo at: Open Locally: Open index.html in your browser to view the project. View Live: Visit the live demo at: https://farieb.github.io/alx-final-project/
