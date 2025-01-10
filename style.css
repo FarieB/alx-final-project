@@ -178,3 +178,38 @@ nav{
   border-radius: 8px;
 
 }
+
+/* Style for the categories bar */
+.categories-bar {
+  background-color: #f9f9f9;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.categories-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.categories-list li {
+  display: inline-block;
+}
+
+.categories-list a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  padding: 5px 15px;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 4px;
+}
+
+.categories-list a:hover {
+  background-color: #f1f1f1;
+  color: #007BFF;
+}
+
