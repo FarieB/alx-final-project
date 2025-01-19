@@ -120,3 +120,22 @@ Ensure that the images for shortcuts and subscribed channels are placed in the `
 ```tsx
 import Sidebar from './components/Sidebar/Sidebar';
 
+
+# VideoList Component
+
+## Description
+The `VideoList` component is responsible for displaying a list of video thumbnails along with basic information such as the video title, channel name, and view count. This component serves as the main content section for the video listing page, offering users an easy way to browse videos.
+
+### Key Features:
+- **Video Thumbnails**: Displays clickable thumbnails of videos.
+- **Video Information**: Shows video title, channel name, and view count beneath each thumbnail.
+- **Dynamic Layout**: The layout adapts to different screen sizes, arranging videos in a responsive grid.
+- **Interactive**: Clicking on a video thumbnail will navigate to the `VideoPlayer` page, where users can watch the video.
+
+## Installation
+1. Clone the repository and navigate to the `components/VideoList` directory.
+2. Import the `VideoList` component into your main `App.tsx` file:
+
+```tsx
+import VideoList from './components/VideoList/VideoList';
+
