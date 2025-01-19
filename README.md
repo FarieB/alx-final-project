@@ -202,3 +202,79 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
+
+# db.json
+
+## Description
+The `db.json` file serves as a mock API for the application. It contains sample data in JSON format that mimics responses from a backend server. This data is used during development to simulate real-world API requests, such as fetching video details, user information, and other necessary resources.
+
+### Key Features:
+- **Mock Data**: The `db.json` file provides mock data for the app's components, enabling the app to function without a live backend.
+- **API Endpoints**: The file includes predefined API endpoints, which can be accessed using the Fetch API or other HTTP libraries to retrieve data for the app.
+- **Editable**: The data in `db.json` can be easily modified to test different app behaviors or scenarios.
+
+## Example Structure
+The `db.json` file follows a structure where different resources (e.g., videos, users, comments) are grouped as key-value pairs. Each resource is an array containing objects with relevant data.
+
+### Example:
+
+```json
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "Example Video 1",
+      "description": "This is a sample video description.",
+      "views": 2500,
+      "publishedAt": "2025-01-01T10:00:00Z",
+      "publisher": {
+        "name": "Publisher 1",
+        "avatar": "path/to/avatar1.jpg"
+      },
+      "tags": ["example", "sample", "video"]
+    },
+    {
+      "id": 2,
+      "title": "Example Video 2",
+      "description": "This is another sample video description.",
+      "views": 4200,
+      "publishedAt": "2025-01-02T12:30:00Z",
+      "publisher": {
+        "name": "Publisher 2",
+        "avatar": "path/to/avatar2.jpg"
+      },
+      "tags": ["example", "tutorial", "video"]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "avatar": "path/to/user1_avatar.jpg",
+      "email": "user1@example.com"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "avatar": "path/to/user2_avatar.jpg",
+      "email": "user2@example.com"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "videoId": 1,
+      "userId": 1,
+      "content": "This is a comment on video 1.",
+      "timestamp": "2025-01-01T11:00:00Z"
+    },
+    {
+      "id": 2,
+      "videoId": 1,
+      "userId": 2,
+      "content": "This is another comment on video 1.",
+      "timestamp": "2025-01-01T12:30:00Z"
+    }
+  ]
+}
+
