@@ -182,3 +182,23 @@ import Sidebar from './components/Sidebar/Sidebar';
 import VideoList from './components/VideoList/VideoList';
 import VideoPlayer from './components/VideoPlayer/VideoPlayer';
 
+
+# index.tsx
+
+## Description
+The `index.tsx` file serves as the entry point for the React application. It is responsible for rendering the root component (`App.tsx`) into the DOM. This file is typically where global setup, such as context providers, and the initial rendering of the React application, occurs.
+
+### Key Features:
+- **Root Rendering**: The `index.tsx` file ensures that the React app is mounted into the correct HTML element (usually the `#root` div).
+- **React Strict Mode**: It enables React's strict mode during development to highlight potential problems in the app.
+- **State and Context Providers**: If your app uses context or global state management, such as Redux or React Context API, this is where providers would be wrapped around the `App` component.
+
+## Installation
+1. Clone the repository and navigate to the `src` directory.
+2. Make sure you have the following import in your `index.tsx` file:
+
+```tsx
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
