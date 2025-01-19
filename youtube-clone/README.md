@@ -100,3 +100,23 @@ Ensure that you have the necessary assets (such as images and icons) in the `/im
 ```tsx
 import Navbar from './components/Navbar/Navbar';
 
+
+# Sidebar Component
+
+## Description
+The `Sidebar` component is a vertical navigation bar that provides quick access to key sections of the YouTube clone. It contains a list of shortcuts, subscribed channels, and other navigation links.
+
+### Key Features:
+- **Shortcuts**: Quick access links for navigating to various sections of the site.
+- **Subscribed Channels**: Displays a list of channels the user is subscribed to.
+- **Collapsible**: The sidebar can be collapsed into a smaller version for a more compact layout, toggled via the menu icon in the navbar.
+
+## Installation
+Ensure that the images for shortcuts and subscribed channels are placed in the `/images` directory.
+
+1. Clone the repository and navigate to the `components/Sidebar` directory.
+2. Import the `Sidebar` component into your main `App.tsx` file:
+
+```tsx
+import Sidebar from './components/Sidebar/Sidebar';
+
