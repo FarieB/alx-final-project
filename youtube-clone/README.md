@@ -53,3 +53,50 @@ To begin building the project, I used `create-react-app` with the TypeScript tem
 
 ```bash
 npx create-react-app youtube-clone --template typescript
+
+## FILE STRUCTURE
+
+src/
+├── components/
+│   ├── Navbar/
+│   │   ├── Navbar.tsx
+│   │   └── Navbar.css
+│   ├── Sidebar/
+│   │   ├── Sidebar.tsx
+│   │   └── Sidebar.css
+│   ├── VideoList/
+│   │   ├── VideoList.tsx
+│   │   └── VideoList.css
+│   └── VideoPlayer/
+│       ├── VideoPlayer.tsx
+│       └── VideoPlayer.css
+├── App.tsx
+├── index.tsx
+├── styles.css
+└── db.json (for mock API)
+
+
+# Navbar Component
+
+## Description
+The `Navbar` component is a key element of the YouTube clone, providing navigation for the users. It includes elements for branding, search functionality, and user access. The component consists of three main sections:
+
+1. **Logo and Menu Icon**: Displays the website logo and a menu icon for expanding or collapsing the sidebar.
+2. **Search Box**: Allows users to search for videos with a search input field and search icon.
+3. **User Icon**: Displays the user profile icon.
+
+## Features
+- **Responsive**: The navbar adapts to different screen sizes.
+- **Search Functionality**: Users can search for videos with the integrated search box.
+- **User Profile**: A placeholder for user profile access, showing the user icon.
+
+## Installation
+Ensure that you have the necessary assets (such as images and icons) in the `/images` directory for proper display of logos and icons.
+
+1. Clone the repository and navigate to the `components/Navbar` directory.
+2. Install dependencies if required by your project setup.
+3. Import the `Navbar` component into your main `App.tsx` file:
+
+```tsx
+import Navbar from './components/Navbar/Navbar';
+
