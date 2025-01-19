@@ -159,3 +159,26 @@ The `VideoPlayer` component is responsible for rendering the video player interf
 ```tsx
 import VideoPlayer from './components/VideoPlayer/VideoPlayer';
 
+
+
+# App.tsx
+
+## Description
+The `App.tsx` file serves as the main entry point of the YouTube clone application. It imports and renders key components, including the `Navbar`, `Sidebar`, `VideoList`, and `VideoPlayer`. The `App.tsx` file also defines the structure and layout of the application, managing the user interface and content flow.
+
+### Key Features:
+- **Component Integration**: Serves as the container for all other components, ensuring they are properly rendered in the app layout.
+- **Dynamic Content**: The app loads video content dynamically, passing data to the `VideoPlayer` and `VideoList` components.
+- **Routing**: If required, this component could be expanded to manage routes (e.g., using `React Router`).
+- **State Management**: With the integration of Redux or other state management libraries, the app could manage global state (e.g., video data, user interactions) and handle data flow between components.
+
+## Installation
+1. Clone the repository and navigate to the `src` directory.
+2. In the `App.tsx` file, import the necessary components:
+
+```tsx
+import Navbar from './components/Navbar/Navbar';
+import Sidebar from './components/Sidebar/Sidebar';
+import VideoList from './components/VideoList/VideoList';
+import VideoPlayer from './components/VideoPlayer/VideoPlayer';
+
