@@ -139,3 +139,23 @@ The `VideoList` component is responsible for displaying a list of video thumbnai
 ```tsx
 import VideoList from './components/VideoList/VideoList';
 
+
+# VideoPlayer Component
+
+## Description
+The `VideoPlayer` component is responsible for rendering the video player interface. It allows users to watch a video, view the title, video description, and interact with video controls such as like, comment, and subscribe buttons. This component is key to providing a video playback experience in the YouTube clone.
+
+### Key Features:
+- **Video Playback**: The component embeds a video player and plays the video upon loading.
+- **Video Information**: Displays video title, channel name, view count, and description.
+- **Publisher Information**: Shows the publisher's profile picture and basic info.
+- **Comment Section**: Allows users to add and view comments.
+- **Responsive Layout**: Adapts to different screen sizes for an optimized viewing experience.
+
+## Installation
+1. Clone the repository and navigate to the `components/VideoPlayer` directory.
+2. Import the `VideoPlayer` component into your main `App.tsx` file:
+
+```tsx
+import VideoPlayer from './components/VideoPlayer/VideoPlayer';
+
