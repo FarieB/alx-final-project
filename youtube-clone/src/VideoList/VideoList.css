@@ -1,18 +1,15 @@
-/* Updated CSS for VideoList Component */
-
-.list-container {
+.video-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 16px;
   padding: 20px;
 }
 
-.vid-list {
+.video-item {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 10px;
   text-align: center;
-  background-color: #f9f9f9;
 }
 
 .thumbnail {
@@ -20,31 +17,12 @@
   border-radius: 5px;
 }
 
-.flex-div {
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.flex-div img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.vid-info a {
+h3 {
   font-size: 18px;
   margin: 10px 0;
-  color: #333;
-  text-decoration: none;
 }
 
-.vid-info a:hover {
-  color: #0073e6;
-}
-
-.vid-info p {
+p {
   font-size: 14px;
   color: #555;
 }

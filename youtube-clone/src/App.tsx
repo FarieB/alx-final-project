@@ -9,7 +9,7 @@ const App = () => {
     <div className="app">
       <Navbar />
       <Sidebar />
-      <div className="content">
+      <div className="main-content">
         <VideoList />
         <VideoPlayer />
       </div>

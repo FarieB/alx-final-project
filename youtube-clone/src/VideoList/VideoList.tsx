@@ -1,8 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './VideoList.css';
 
-const VideoList = () => {
-  const [videos, setVideos] = useState([]);
+interface Video {
+  id: number;
+  title: string;
+  thumbnail: string;
+  description: string;
+}
+
+const VideoList: React.FC = () => {
+  const [videos, setVideos] = useState<Video[]>([]);
 
   useEffect(() => {
     fetch('http://localhost:5000/videos')
@@ -12,17 +19,12 @@ const VideoList = () => {
   }, []);
 
   return (
-    <div className="list-container">
+    <div className="video-list">
       {videos.map(video => (
-        <div key={video.id} className="vid-list">
-          <img className="thumbnail" src={video.thumbnail} alt={video.title} />
-          <div className="flex-div">
-            <img src={video.userImage} alt={video.userName} />
-            <div className="vid-info">
-              <a href="#">{video.title}</a>
-              <p>{video.description}</p>
-            </div>
-          </div>
+        <div key={video.id} className="video-item">
+          <img src={video.thumbnail} alt={video.title} className="thumbnail" />
+          <h3>{video.title}</h3>
+          <p>{video.description}</p>
         </div>
       ))}
     </div>
