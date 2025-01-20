@@ -3,19 +3,23 @@ import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <nav>
-      <div className="nav-left">
-        <img className="logo" src="/images/logo.png" alt="Logo" />
-        <img className="menu-icon" src="/images/menu-icon.png" alt="Menu Icon" />
+    <nav className="flex-div">
+      <div className="nav-left flex-div">
+        <img src="/images/menu.png" className="menu-icon" alt="Menu Icon" />
+        <img src="/images/logo.png" className="logo" alt="Logo" />
       </div>
-      <div className="nav-middle">
-        <div className="search-box">
-          <input type="text" placeholder="Search..." />
-          <img src="/images/search-icon.png" alt="Search" />
+      <div className="nav-middle flex-div">
+        <div className="search-box flex-div">
+          <input type="text" placeholder="Search" />
+          <img src="/images/search.png" alt="Search Icon" />
         </div>
+        <img src="/images/voice-search.png" className="mic-icon" alt="Voice Search Icon" />
       </div>
-      <div className="nav-right">
-        <img className="user-icon" src="/images/user-icon.png" alt="User Icon" />
+      <div className="nav-right flex-div">
+        <img src="/images/upload.png" alt="Upload Icon" />
+        <img src="/images/more.png" alt="More Options Icon" />
+        <img src="/images/notification.png" alt="Notification Icon" />
+        <img src="/images/fafi.png" className="user-icon" alt="User Icon" />
       </div>
     </nav>
   );
